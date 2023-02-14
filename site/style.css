@@ -1,0 +1,61 @@
+body {
+    font-family: 'Apple Chancery', 'cursive';
+    background-color: pink;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgb(255, 201, 242);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 44px;
+    margin-top: 0;
+  }
+  
+  main {
+    text-align: justify;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 60%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  
+    img {
+      margin: 10px auto;
+    }
+  }
